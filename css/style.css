@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  margin-top: 10%;
+  color: blueviolet;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+#play {
+  margin-bottom: 2% !important;
+  margin-top: 2% !important;
+  border: 1px black solid;
+}
+
+.homeButtons {
+  width: 50% !important;
+}
+
+.question,
+.homeButtons,
+.option,
+.next-question,
+.finish-button,
+.save,
+.play-again,
+#highScores,
+.home,
+.name {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+#game-container {
+  margin-top: 10%;
+}
+
+#end-container {
+  margin-top: 10%;
+}
+
+#scores-container {
+  margin-top: 10%;
+}
+
+.question {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.progressText {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 1%;
+}
+
+.scoreText {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 70% !important;
+}
+
+.score {
+  /* float: right; */
+  color: rgb(84, 84, 245);
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 77%;
+}
+
+.option,
+.finish-button,
+.next-question {
+  width: 100%;
+  border: 1px black solid !important;
+  margin-bottom: 0.5% !important;
+  margin-top: 0.5% !important;
+}
+
+.save,
+.play-again,
+#highScores,
+.home,
+.name {
+  width: 50%;
+  border: 1px black solid !important;
+  margin-bottom: 0.5% !important;
+  margin-top: 0.5% !important;
+}
+
+.name {
+  height: 40px;
+  border-radius: 5px;
+  font-size: x-large;
+}
+
+.final-score {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(0, 82, 189);
+}
+
+.score-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.colName {
+  text-align: right;
+  margin-right: 5%;
+  font-size: 25px;
+}
+
+.colScore {
+  font-size: 25px;
+}
+
+@media (max-width: 400px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+  .heading {
+    font-size: 60px;
+  }
+}
